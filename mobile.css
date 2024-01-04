@@ -1,0 +1,174 @@
+@media screen and (max-width: 700px) {
+    #left_container{
+        display: none;
+        margin: 0;
+    }
+    #right_container {
+        display: none;
+        margin: 0;
+        width: 0px;
+    }
+
+    #each_menu{
+        display: none;
+    }
+    #nav_menu {
+        justify-content: space-between;
+        /* background-color: #64ffda; */
+        margin-left: 250px;
+    }
+
+    #nav_menu b{
+        display: flex;
+        padding: 5px;
+        margin-right: 0;
+        left: 152px;
+        /* margin-left: 100px; */
+    }
+
+    #home {
+        margin-left: 0;
+    }
+
+    #middle_container {
+        margin-left: 20px;
+        margin-top: 170px;
+        padding: 0px;
+        margin-right: 0;
+        width: 135%;
+        /* background-color: aquamarine; */
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+    }
+
+    #about_container {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        /* background-color: aquamarine; */
+    }
+
+    #about_container b{
+        font-size: 15px;
+    }
+
+    #name {
+        font-size: 50px;
+    }
+
+    #role {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    #about_container p{
+        color: #e6f1ff;
+        font-family: monospace;
+        line-height: 1.5;
+        /* gap: 5px; */
+        margin-bottom: 50px;
+        font-size: larger;
+    }
+
+    #about_container i{
+        width: 90px;
+        height: 20px;
+    }
+
+
+    /* #education_container {
+        margin-left: 170px;
+    } */
+
+    #education_content {
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 20px;
+    }
+
+    #from {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        flex-shrink: 0;
+        /* gap: 15px; */
+    }
+
+    #from p{
+        height: 40px;
+    }
+
+    #from p:hover {
+        background: #172a45;
+    }
+
+    #college {
+        /* height: 70px; */
+        width: 120px;
+        margin: 0;
+        padding-top: 5px;
+        padding-left: 10px;
+        border-top: 2px solid #64ffda;
+        background: #172a45;
+        color: #64ffda;
+        border-left: none;
+    }
+    
+    #school {
+        margin: 0;
+        padding-top: 5px;
+        padding-left: 10px;
+        border-top: 2px solid #8892b0;
+        border-left: none;
+    }
+
+    #college_intro, #school_intro {
+        /* width: 500px;
+        height: 350px; */
+        margin-left: 0px;
+        /* margin-top: 0; */
+    }
+
+    #moving_content {
+        /* margin: 8px; */
+        width: 80px;
+        height: 80px;
+    }
+
+    #moving_content img{
+        width: 80px;
+        height: 80px;
+        /* padding-top: 15px; */
+        /* padding-left: 15px; */
+    }
+
+    #project_container #heading .hl{
+        width: 120px;
+    }
+
+
+    #right {
+        flex-direction: column;
+        margin-bottom: 150px;
+        align-items: center;
+    }
+
+    #right img {
+        width: 350px;
+        height: 200px;
+        order: -1;
+        margin-bottom: 0;
+    }
+
+    #project_container {
+        width: 100%;
+    }
+
+    #project_content {
+        margin-top: 100px;
+    }
+
+}
