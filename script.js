@@ -287,7 +287,7 @@ function openCountry() {
 
 
 function openResume() {
-    window.open('https://drive.google.com/file/d/1jSzWwOeCU48WewtT0Ux5oxaKLWDykQ1Z/view?usp=drive_link')
+    window.open('https://drive.google.com/file/d/1XJ4TlH_8BNhgERuu3BEp4aK8kxYMatWb/view?usp=drive_link')
 }
 
 function openMail() {
